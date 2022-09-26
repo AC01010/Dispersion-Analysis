@@ -1,0 +1,63 @@
+Name,Type,Stage,Parent,Mass,Length,Local_CG,Position,MOI,Sim Sec,Event 1,Event 2,Event 3,Event 4,Event 5,Event 6
+Nose Cone,Airframe,1,Nose Cone,1.365313034,0.9271,0.5969,0,0.423866947,,1,1,1,,,1
+Nose Tip,Other,1,Nose Cone,0.303906888,0.1016,0.0677418,0,0.010732438,,1,1,1,,,1
+"G10 Cover Plate, Nose Cone",Other,1,Nose Cone,0.063502932,0.002413,0.0012065,0.670687,0.028810981,1,1,1,1,,,1
+"Avionics Structure, Nose Cone",Other,1,Nose Cone,1.179340162,0.27305,0.136525,0.6731,0.860107805,1,1,1,1,,,1
+Nose Cone Avionics Blades,Other,1,Nose Cone,0.45359237,0.1016,0.0508,0.6731,0.252544565,1,1,1,1,,,1
+Eagle CO2 Deployment,Other,1,Nose Cone,0.222260261,0.1524,0.0762,0.79375,0.178531242,1,1,1,1,,,1
+Eagle CO2 Deployment,Other,1,Nose Cone,0.222260261,0.1524,0.0762,0.79375,0.178531242,1,1,1,1,,,1
+Eagle CO2 Deployment,Other,1,Nose Cone,0.222260261,0.1524,0.0762,0.79375,0.178531242,1,1,1,1,,,1
+Nose Cone Coupler,Coupler,1,Nose Cone Tube,0.460849848,0.2032,0.1016,0.9017,0.491020075,1,1,1,1,,,1
+Nose Cone Plate,Other,1,Nose Cone Tube,0.585134157,0.0508,0.0254,0.9017,0.513310402,1,1,1,1,,,1
+"Standard Bolt Ring, NC Plate Top",Bolt Ring,1,Nose Cone,0.015875733,0.00508,0.00254,0.91186,0.013323958,1,1,1,1,,,1
+Nose Cone Tube,Airframe,1,Nose Cone Tube,1.156660544,0.4318,0.2159,0.9271,1.625347192,,1,1,1,,,1
+"Standard Bolt Ring, NC Plate Bottom",Bolt Ring,1,Nose Cone Tube,0.015875733,0.00508,0.00254,0.93726,0.014071652,1,1,1,1,,,1
+"U-Bolt, Nose Cone Plate",Other,1,Nose Cone Tube,0.068038856,0.0762,0.0381,0.9398,0.066792783,1,1,1,1,,,1
+"U-Bolt, Nose Cone Plate",Other,1,Nose Cone Tube,0.068038856,0.0762,0.0381,0.9398,0.066792783,1,1,1,1,,,1
+Nose Cone Shock Cord,Other,1,Nose Cone Tube,0.45359237,0.0508,0.0254,0.95885,0.447462592,1,1,1,1,,,1
+"Nose Cone Parachute, 3ft",Other,1,Nose Cone Tube,0.291206302,0.127,0.0635,1.00965,0.346943008,x,1,1,1,,,1
+"Sustainer Parachute, 4ft",Other,1,Sustainer Fin Can,0.485343836,0.1651,0.08255,1.1684,0.783607445,x,1,1,1,,1,
+Sustainer Coupler,Coupler,1,Sustainer Fin Can,0.518456079,0.2286,0.1143,1.1811,0.903482644,2,1,1,1,,1,
+Sustainer Shear Pin Ring,Bolt Ring,1,Nose Cone Tube,0.004,0,0,1.2573,0.00632902,2,1,1,1,,1,
+Sustainer Shock Cord,Other,1,Sustainer Fin Can,0.45359237,0.0508,0.0254,1.3335,0.84565371,2,1,1,1,,1,
+Forged Eyebolt,Other,1,Sustainer Fin Can,0.136077711,0.127,0.0635,1.3462,0.275829867,2,1,1,1,,1,
+Sustainer Fin Can,Airframe,1,Sustainer Fin Can,4.456545035,1.6637,0.83185,1.3589,20.78253607,,1,1,1,,1,
+"G10 Cover Plate, Sustainer",Other,1,Sustainer Fin Can,0.063502932,0.002413,0.0012065,1.3843,0.122045184,2,1,1,1,,1,
+400 mAh Batteries,Other,1,Sustainer Fin Can,0.045359237,0.0254,0.0127,1.3843,0.088966026,2,1,1,1,,1,
+Sustainer Motor Mount,Other,1,Sustainer Fin Can,0.680388555,0.0508,0.0254,1.3843,1.364173732,2,1,1,1,,1,
+"Standard Bolt Ring, SMM Top",Bolt Ring,1,Sustainer Fin Can,0.015875733,0.00508,0.00254,1.39446,0.031033046,2,1,1,1,,1,
+Power Management Board,Other,1,Sustainer Fin Can,0.045359237,0.00762,0.00381,1.40208,0.089834129,2,1,1,1,,1,
+"Standard Bolt Ring, SMM Bottom",Bolt Ring,1,Sustainer Fin Can,0.015875733,0.00508,0.00254,1.41986,0.032169952,2,1,1,1,,1,
+Sustainer Motor,Motor,1,Sustainer Fin Can,15.23163178,1.580388,0.91694,1.4351,79.50162591,x,1,1,1,,1,
+Sustainer Propellant,Propellant,1,Sustainer Fin Can,21.86315223,1.27635,0.638175,1.524,102.6385897,x,1,1,a,,,
+Sustainer Fin Set,Fins,1,Sustainer Fin Can,1.315417873,0.508,0.2032,2.4765,9.61605963,x,1,1,1,,1,
+"Staging Bolt Ring, Upper Flange Top",Bolt Ring,1,"Staging Flange, Upper",0.021167644,0.00508,0.00254,2.93116,0.182247784,3,1,1,1,,1,
+"Staging Bolt Ring, Upper Flange Bottom",Bolt Ring,1,"Staging Flange, Upper",0.021167644,0.00508,0.00254,2.99974,0.19086491,3,1,1,1,,1,
+"Staging Flange, Upper",Airframe,1,"Staging Flange, Upper",0.961615824,0.0127,-0.0508,3.0226,8.495586478,3,1,1,1,,1,
+"Staging Flange, Lower",Airframe,2,"Staging Flange, Lower",0.961615824,0.0127,0.0508,3.0353,9.161426555,4,1,,,1,,
+"Interstage Camera, Wide Angle",Other,2,Interstage Tube,0.013607771,0.03175,0.015875,3.04165,0.127372017,4,1,,,1,,
+Interstage Tube,Airframe,2,Interstage Tube,0.408233133,0.1778,0.0889,3.048,4.038630279,,1,,,1,,
+Interstage Coupler,Coupler,2,Interstage Tube,0.691274772,0.381,0.1905,3.048,7.313708454,4,1,,,1,,
+"Staging Bolt Ring, Lower Flange Top",Bolt Ring,2,"Staging Flange, Lower",0.021167644,0.00508,0.00254,3.07086,0.200011499,4,1,,,1,,
+Interstage Avionics Blades,Other,2,Interstage Tube,0.226796185,0.1016,0.0508,3.0734,2.221096661,4,1,,,1,,
+"G10 Cover Plate, Interstage",Other,2,Interstage Tube,0.063502932,0.002413,0.0012065,3.090037,0.606963612,4,1,,,1,,
+Interstage Avionics Structure,Other,2,Interstage Tube,0.226796185,0.10795,0.053975,3.09245,2.253108588,4,1,,,1,,
+"Staging Bolt Ring, Lower Flange Bottom",Bolt Ring,2,"Staging Flange, Lower",0.021167644,0.00508,0.00254,3.13436,0.208359045,4,1,,,1,,
+"U-Bolt, Interstage Plate",Other,2,Interstage Tube,0.068038856,0.0762,0.0381,3.18135,0.70694111,4,1,,,1,,
+"U-Bolt, Interstage Plate",Other,2,Interstage Tube,0.068038856,0.0762,0.0381,3.18135,0.70694111,4,1,,,1,,
+"Standard Bolt Ring, Interstage Plate",Bolt Ring,2,Interstage Tube,0.015875733,0.00508,0.00254,3.18516,0.161369993,4,1,,,1,,
+"Interstage Avionics Plate, Al",Other,2,Interstage Tube,0.376481667,0.0254,0.0127,3.2004,3.89047411,4,1,,,1,,
+Flame Protector,Other,2,Interstage Tube,0.085048569,0.0508,0.0254,3.2004,0.88650578,4,1,,,1,,
+Booster Fin Can,Airframe,2,Booster Fin Can,5.13693359,1.8796,0.9398,3.2258,87.82575091,,1,,,1,,
+"Booster Parachute, 4ft",Other,2,Interstage Tube,0.485343836,0.1651,0.08255,3.25755,5.438730482,x,1,,,1,,
+Booster Shear Pin Ring,Bolt Ring,2,Booster Fin Can,0.004,0,0,3.3528,0.044970878,5,1,,,1,,
+Booster Shock Cord,Other,2,Interstage Tube,0.45359237,0.0508,0.0254,3.42265,5.400827686,5,1,,,1,,
+Forged Eyebolt,Other,2,Booster Fin Can,0.136077711,0.127,0.0635,3.4671,1.701636103,5,1,,,1,,
+400 mAh Batteries,Other,2,Booster Fin Can,0.045359237,0.0254,0.0127,3.4671,0.549697897,5,1,,,1,,
+Power Management Board,Other,2,Booster Fin Can,0.045359237,0.00762,0.00381,3.48488,0.552245751,5,1,,,1,,
+"G10 Cover Plate, Booster",Other,2,Booster Fin Can,0.063502932,0.002413,0.0012065,3.5052,0.780904503,5,1,,,1,,
+Booster Motor Mount,Other,2,Booster Fin Can,0.680388555,0.0254,0.0127,3.5306,8.548899189,5,1,,,1,,
+"Standard Bolt Ring, Booster Motor Mount",Bolt Ring,2,Booster Fin Can,0.015875733,0.00508,0.00254,3.54076,0.199369252,5,1,,,1,,
+Booster Motor,Motor,2,Booster Fin Can,15.05473076,1.5494,0.884682,3.556,292.8876945,x,1,,,1,,
+Booster Propellant,Propellant,2,Booster Fin Can,21.86315223,1.27635,0.638175,3.6449,401.5019936,x,a,,,,,
+Booster Fin Set,Fins,2,Booster Fin Can,1.315417873,0.508,0.2032,4.5593,30.00584454,x,1,,,1,,
