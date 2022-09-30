@@ -126,7 +126,7 @@ mpl.rcParams['figure.titlesize'] = 14
 DATE = (2022, 9, 30, 12)
 DIAM = 10
 
-number_of_simulations = 10
+number_of_simulations = 20
 
 # Toggle True/False to deploy parachutes or land ballistic
 parachutes = True
@@ -184,7 +184,7 @@ Env = Environment(
     latitude=33.9127,
     longitude=-84.9417,
     elevation=1300,
-    date=(2022,10,5,12)
+    date=(2022,10,1,12) # change this <- this is the date of the launch
     )
 #Env.allInfo()
 # Sets the atmospheric model to an Ensemble type so a new forecast can be used for each iteration
@@ -340,11 +340,11 @@ plt.figure(num=None, figsize=(8, 8), dpi=150, facecolor='w', edgecolor='k')
 ax = plt.subplot(111)
 
 # Calculate error ellipses for impact
-impactCov = np.cov(noseImpactX, noseImpactY)
+impactCov = np.cov(np.negative(noseImpactX), np.negative(noseImpactY))
 impactVals, impactVecs = eigsorted(impactCov)
 impactTheta = np.degrees(np.arctan2(*impactVecs[:,0][::-1]))
 impactW, impactH = 2 * np.sqrt(impactVals)
-plt.scatter(noseImpactX, noseImpactY, s=5, marker='v', color='blue', label='Nose Cone Landing Point')
+plt.scatter(np.negative(noseImpactX), np.negative(noseImpactY), s=5, marker='v', color='blue', label='Nose Cone Landing Point')
 plt.legend()
 
 ax.set_title('1$\sigma$, 2$\sigma$ and 3$\sigma$ Dispersion Ellipses: Landing Points')
@@ -365,7 +365,7 @@ plt.ylim(-35000, 35000)
 # Draw error ellipses for nose cone impact
 impact_ellipses = []
 for j in [1, 2, 3]:
-    impactEll = Ellipse(xy=(np.mean(noseImpactX), np.mean(noseImpactY)),
+    impactEll = Ellipse(xy=(np.mean(np.negative(noseImpactX)), np.mean(np.negative(noseImpactY))),
                         width=impactW*j, height=impactH*j,
                         angle=impactTheta, color='black')
     impactEll.set_facecolor((0, 0, 1, 0.2))
