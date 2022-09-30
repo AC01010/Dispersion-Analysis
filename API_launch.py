@@ -12,16 +12,19 @@ def API_launch_site(latitude,longitude, zoom_level,length_level,height_level,sca
         "key": key
     }
     response = requests.get(url, params=d)
+    with open("staticmap.png", "wb") as f:
+        f.write(response.content)
     print(response.url)    
 
-latitude="35.3505823"
-longitude="-117.8108475"
-zoom_level="10"
+latitude="33.9127"
+longitude="-84.9417"
+meter_per_pixel = 3
 # The relationship between the zoom and the map scale is given by https://stackoverflow.com/questions/9356724/google-map-api-zoom-range 
-meter_per_pixel=156543.03392 * math.cos(math.radians(float(latitude))) / math.pow(2, float(zoom_level))
-inv_mpp = math.log(math.cos(math.radians(float(latitude)))/meter_per_pixel*156543.03392,2) # Invert meter_per_pixel to zoom_level
-length_level="400"
-height_level="400"
+# meter_per_pixel=156543.03392 * math.cos(math.radians(float(latitude))) / math.pow(2, float(zoom_level))
+zoom_level = str(int(math.log(math.cos(math.radians(float(latitude)))/meter_per_pixel*156543.03392,2))) # Invert meter_per_pixel to zoom_level
+print(zoom_level)
+length_level="1000"
+height_level="1000"
 scale_level="2"
 format_type="png"
 maptype="satellite"
